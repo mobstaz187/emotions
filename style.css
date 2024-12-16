@@ -48,10 +48,10 @@ body {
   transition: filter 0.25s ease-in-out;
 }
 body.night [sysDesktopBackground] {
-  background-image: url("https://www.gallery247.com.au/img.php?img=profile/226026/5981f682fd4198ff1c850ac1b41a095e.jpeg");
+  background: url("bg.jpg");
 }
 body.night [sysDesktopBackgroundBlur] {
-  background-image: url("https://www.gallery247.com.au/img.php?img=profile/226026/5981f682fd4198ff1c850ac1b41a095e.jpeg");
+  background: url("bg.jpg");
 }
 body.sleep {
   filter: brightness(0);
@@ -180,7 +180,7 @@ video {
   height: 100vh;
   user-select: none;
   transform: translate3d(0, 0, 0);
-  background: url("https://www.gallery247.com.au/img.php?img=profile/226026/5981f682fd4198ff1c850ac1b41a095e.jpeg");
+  background: url("bg.jpg");
   background-size: 0px 0px;
 }
 .desktop:before {
