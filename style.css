@@ -47,7 +47,12 @@ body {
   font-size: 16px;
   transition: filter 0.25s ease-in-out;
 }
-
+body.night [sysDesktopBackground] {
+  background-image: url("https://www.gallery247.com.au/img.php?img=profile/226026/5981f682fd4198ff1c850ac1b41a095e.jpeg");
+}
+body.night [sysDesktopBackgroundBlur] {
+  background-image: url("https://www.gallery247.com.au/img.php?img=profile/226026/5981f682fd4198ff1c850ac1b41a095e.jpeg");
+}
 body.sleep {
   filter: brightness(0);
   pointer-events: none !important;
@@ -175,6 +180,8 @@ video {
   height: 100vh;
   user-select: none;
   transform: translate3d(0, 0, 0);
+  background: url("https://www.gallery247.com.au/img.php?img=profile/226026/5981f682fd4198ff1c850ac1b41a095e.jpeg");
+  background-size: 0px 0px;
 }
 .desktop:before {
   content: "";
@@ -3553,6 +3560,7 @@ iframe::-webkit-resizer, iframe ::-webkit-scrollbar-corner {
   min-width: 115%;
   min-height: 115%;
 }
+
 
 /* Add some content at the bottom of the video/page */
 .content {
